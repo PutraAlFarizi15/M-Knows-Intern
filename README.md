@@ -1,5 +1,6 @@
-# Web-Crawling-and-Scaraping
-Referensi : https://www.youtube.com/live/5o9lucMaQLc?feature=share
+# Requirement intern
+Referensi Scrapy: https://www.youtube.com/live/5o9lucMaQLc?feature=share<br>
+Referensi Django: 
 
 # Dokumentasi
 Open Terminal in main folder<br>
