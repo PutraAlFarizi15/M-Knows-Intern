@@ -8,7 +8,11 @@
 <body>
     <h1>Iris Application with Django</h1>
     <hr>
-    <form action="result">
+    {% if result %}
+        <h1>Flower you'r trying to classifiy is {{result}}</h1>
+    {% endif %}
+    <form action="" method="POST">
+        {% csrf_token %}
         Sepal Length : <input type="number" name="sepal_length" required><br>
         Sepal Width : <input type="number" name="sepal_width" required><br>
         Petal Length : <input type="number" name="petal_length" required><br>
